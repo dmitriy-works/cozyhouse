@@ -162,3 +162,31 @@
   text-align: center; 
   margin-bottom: 65px; 
 }
+
+.cards {
+  padding: 75px 0;
+}
+
+.cards__title{
+  max-width: 330px;
+  margin: 0 auto;
+}
+
+.cards__inner{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cards__item{
+  margin-top: 80px;
+  text-align: center;
+  padding-left: 130px;
+  &-icon{
+    margin-bottom: 30px;
+    
+  }
+  &-text{
+    font-size: 20px;
+  }
+}
